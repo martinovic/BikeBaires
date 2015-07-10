@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dotworld.bairebike.activity.VelocimetroFragment">
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/hora_inicio"
+        android:id="@+id/horaActual"
+        android:textColor="@color/grisTextEdit"
+        android:singleLine="true"
+        android:textSize="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/velocidad_actual"
+        android:id="@+id/textView5"
+        android:textColor="@color/grisTextEdit"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/horaActual"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/velocidad_0"
+        android:id="@+id/velocidad_actual"
+        android:textColor="@color/grisTextEdit"
+        android:textSize="80dp"
+        android:gravity="center"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/velocidad_maxima"
+        android:id="@+id/textView4"
+        android:textColor="@color/grisTextEdit"
+        android:layout_below="@+id/velocidad_actual"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginTop="67dp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/velocidad_0"
+        android:id="@+id/velocidad_maxima"
+        android:textColor="@color/grisTextEdit"
+        android:textSize="45dp"
+        android:gravity="center"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

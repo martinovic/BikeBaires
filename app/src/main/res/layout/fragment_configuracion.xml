@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.dotworld.bairebike.activity.RobadaFragment">
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/label"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:textSize="45dp"-->
+        <!--android:text="CONFIGURACION"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<TextView-->
+        <!--android:layout_below="@id/label"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="12dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:text="Edit fragment_friends.xml to change the appearance" />-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:id="@+id/configuracion">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/ip_url"
+            android:id="@+id/textView2"
+            android:textStyle="bold"
+            android:textColor="#ff626262"
+            android:padding="5dp"
+            android:layout_margin="5dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:textStyle="bold"
+            android:textColorHint="#ffaeb4b8"
+            android:hint="IP o URL"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textSize="30dp"
+            android:textColor="@color/grisTextEdit"
+            android:singleLine="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/url_consulta_texto"
+            android:id="@+id/textView3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:padding="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar_parametros"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/background_material_dark"
+            android:padding="20dp"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</RelativeLayout>
+

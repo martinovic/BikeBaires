@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff2e9b89</color>
+    <color name="colorPrimaryDark">#ff1e6859</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#ff3ac2ac</color>
+    <color name="grisTextEdit">#FF3C3F41</color>
+    <color name="grisTextEditHint">#ffaeb4b8</color>
+    <color name="fondoBotones">#FF3C3F41</color>
+</resources>
